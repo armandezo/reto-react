@@ -1,0 +1,43 @@
+@import 'core/vars';
+
+nav {
+	background: var(--main-color);
+	display: flex;
+	justify-content: space-between;
+	padding: 0 24px; 
+}
+.menu {
+	display: none;
+}
+.nav-logo {
+	width: 237px;
+    height: 41px;
+    padding-top: 8px;
+}
+.navbar-left ul,
+.navbar-right ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	height: 60px;
+}
+.navbar-left {
+	display: flex;
+}
+.navbar-left ul {
+	margin-left: 12px;
+}
+.navbar-left ul li a,
+.navbar-right ul li a {
+	text-decoration: none;
+	color: var(--very-light-pink); 
+	padding: 8px;
+	border-radius: 8px;
+}
+.navbar-left ul li a:hover,
+.navbar-right ul li a:hover { 
+	color: var(--white);
+}
+

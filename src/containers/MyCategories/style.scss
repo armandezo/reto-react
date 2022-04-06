@@ -1,0 +1,36 @@
+@import 'core/vars';
+
+
+.MyCategories {
+    width: 360px;
+    padding: 24px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    background-color: var(--white);
+    top: 138px;
+    bottom: 0;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: 1px solid var(--very-light-pink);
+    z-index: 1;
+}
+
+.list-cat {
+    margin-top: -11px;
+    font-size: 18px;
+}
+
+.sub-menu {
+    padding-left: 0px;
+}
+
+.sub-menu li {
+    padding: 10px;
+    color: #7300e0;
+    font-size: 20px;
+    font-weight: bold;
+}
